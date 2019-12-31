@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div>
+      <div id="entire-site">
         <main>{children}</main>
         <footer id="connect" className="social-footer">
 

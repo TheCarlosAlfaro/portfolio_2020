@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
+    <div className="content">
     <Img
       className="headshot"
       fixed={data.file.childImageSharp.fixed}
@@ -14,7 +15,7 @@ const IndexPage = ({data}) => (
     />
     <h1>CARLOS ALFARO</h1>
     <p>SOFTWARE DEVELOPER</p>
-
+    </div>
   </Layout>
 )
 
