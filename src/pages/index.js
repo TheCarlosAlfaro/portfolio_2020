@@ -15,6 +15,7 @@ const IndexPage = ({data}) => (
     />
     <h1>CARLOS ALFARO</h1>
     <p>SOFTWARE DEVELOPER</p>
+    <p>Maker</p>
     </div>
   </Layout>
 )
