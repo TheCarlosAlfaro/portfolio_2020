@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => (
         fixed={data.file.childImageSharp.fixed}
         alt="headshot"
       />
-      <h1>Hey, I'm Carlos Alfaro 👋.</h1>
+      <h1>Hi, I'm Carlos Alfaro 👋.</h1>
       <p>I'm a freelance software developer.</p>
       <div className="social-icons">
         <SocialIcon
