@@ -27,8 +27,7 @@ const Layout = ({ children }) => {
       <div id="entire-site">
         <main>{children}</main>
         <footer id="connect" className="social-footer">
-
-          © {new Date().getFullYear()}, Dev by
+          © {new Date().getFullYear()}, Developed by
           {` `}
           <a href="https://www.carlosalfaro.dev">Carlos alfaro</a>
         </footer>
