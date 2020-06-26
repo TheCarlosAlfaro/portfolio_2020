@@ -29,7 +29,9 @@ const Layout = ({ children }) => {
         <footer id="connect" className="social-footer">
           © {new Date().getFullYear()}, Developed by
           {` `}
-          <a href="https://www.carlosalfaro.dev">Carlos alfaro</a>
+          <a href="https://www.carlosalfaro.dev" className="footer-link">
+            Carlos alfaro
+          </a>
         </footer>
       </div>
     </>
