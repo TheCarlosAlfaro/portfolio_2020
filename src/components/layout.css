@@ -4,6 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+  background-color: #000;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -199,7 +200,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: hsla(115, 100%, 100%, 1);
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -634,4 +635,15 @@ pre tt:after {
   justify-content: center;
   align-items: center;
   height: 90vh;
+}
+
+.content h1 {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 764px) {
+  .content h1 {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+  }
 }

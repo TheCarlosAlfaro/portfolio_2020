@@ -20,32 +20,32 @@ const IndexPage = ({ data }) => (
         <SocialIcon
           url="https://github.com/carlosalfarodev"
           bgColor="#d1b712"
-          style={{ height: 35, width: 35, margin: 2 }}
+          style={{ height: 35, width: 35, margin: 6 }}
         />
         <SocialIcon
           url="https://www.linkedin.com/in/carlosalfarodev/"
           bgColor="#d1b712"
-          style={{ height: 35, width: 35, margin: 2 }}
+          style={{ height: 35, width: 35, margin: 6 }}
         />
         <SocialIcon
           url="https://www.instagram.com/carlosalfarodev/"
           bgColor="#d1b712"
-          style={{ height: 35, width: 35, margin: 2 }}
+          style={{ height: 35, width: 35, margin: 6 }}
         />
         <SocialIcon
           url="https://twitter.com/carlosalfarodev"
           bgColor="#d1b712"
-          style={{ height: 35, width: 35, margin: 2 }}
+          style={{ height: 35, width: 35, margin: 6 }}
         />
         <SocialIcon
           url="mailto:info@carlosalfaro.me?subject=Carlos Alfaro Inquiry"
           bgColor="#d1b712"
-          style={{ height: 35, width: 35, margin: 2 }}
+          style={{ height: 35, width: 35, margin: 6 }}
         />
         <SocialIcon
           url="https://www.youtube.com/channel/UC5S3e876wk3AcNz2N5Y1MEA"
           bgColor="#d1b712"
-          style={{ height: 35, width: 35, margin: 2 }}
+          style={{ height: 35, width: 35, margin: 6 }}
         />
       </div>
     </div>
